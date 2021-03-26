@@ -1,0 +1,142 @@
+.navbar {
+  background-color: #ececec;
+}
+.navbar-brand {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 25px;
+  font-weight: bold;
+}
+.nav-link {
+  font-family: "Roboto Slab", serif;
+  margin-right: 30px;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+.nav-link:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+  margin-bottom: -7px;
+}
+.main {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.petunjuk {
+  background-color: #ececec;
+  border-radius: 20px;
+  height: 40px;
+}
+.petunjuk li {
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+.petunjuk nav {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.detail img {
+  background-size: cover;
+  height: 300px;
+  width: 200px;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+.detail h3 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 800;
+  text-decoration: underline;
+}
+.detail p {
+  font-family: "Roboto Slab", serif;
+  margin: 0px 0px 0px;
+  font-size: 11px;
+}
+.sinopsis p {
+  font-family: "Roboto Slab", serif;
+  margin: 10px 0px 0px;
+  font-size: 11px;
+}
+.listanime {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  height: 390px;
+  overflow: auto;
+}
+.listanime a {
+  font-family: "Roboto Slab", serif;
+  height: 35px;
+  font-size: 11px;
+}
+.listanime span {
+  font-family: "Roboto Slab", serif;
+  font-weight: 800;
+  font-size: 15px;
+}
+.listanime video {
+  height: 215px;
+  width: 305px;
+  margin: auto;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ececec;
+  margin-bottom: -7px;
+  margin-left: 5px;
+}
+.footer p {
+  font-family: "Roboto Slab", serif;
+}
+.footer span {
+  font-family: "Berkshire Swash", cursive;
+  font-weight: bold;
+  font-size: 20px;
+}
+@media (min-width: 991.98px) {
+  .navbar-brand,
+  .nav-link {
+    text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.5);
+  }
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid black;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -7px;
+  }
+  .detail img {
+    margin-left: 10px;
+  }
+  .detail p {
+    font-family: "Roboto Slab", serif;
+    font-size: 15px;
+  }
+  .sinopsis p {
+    font-family: "Roboto Slab", serif;
+    font-size: 15px;
+  }
+  .listanime a {
+    font-family: "Roboto Slab", serif;
+    font-size: 15px;
+  }
+  .listanime span {
+    font-family: "Roboto Slab", serif;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .listanime video {
+    height: 315px;
+    width: 550px;
+    margin: auto;
+  }
+  .listanime {
+    height: 433px;
+  }
+}
